@@ -3,6 +3,7 @@ import { BsGear as icon } from 'react-icons/bs';
 export const NETWORKS = [
     { title: 'Fantom', value: 250 },
     { title: 'Rinkeby', value: 4 },
+    { title: 'Optimism', value: 10 },
 ];
 
 export default {

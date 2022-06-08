@@ -30,6 +30,10 @@
     {
       "name": "part:@sanity/desk-tool/structure",
       "path": "./deskStructure.ts"
+    },
+    {
+      "implements": "part:@sanity/base/document-actions/resolver",
+      "path": "./resolveDocumentActions.ts"
     }
   ]
 }
