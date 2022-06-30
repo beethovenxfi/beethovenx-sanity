@@ -9,6 +9,13 @@ import fantomToken from './fantomToken';
 import rinkebyToken from './rinkebyToken';
 import { lbp } from './lbp';
 import optimismToken from './optimismToken';
+import {
+    homeScreen,
+    homeScreenFeaturedPoolGroup,
+    homeScreenFeaturedPoolGroupExternalLink,
+    homeScreenFeaturedPoolGroupPoolId,
+    homeScreenNewsItem,
+} from './homeScreen';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -25,5 +32,10 @@ export default createSchema({
         configFeaturedPool,
         configNewsItem,
         configPoolFilter,
+        homeScreen,
+        homeScreenFeaturedPoolGroup,
+        homeScreenFeaturedPoolGroupExternalLink,
+        homeScreenFeaturedPoolGroupPoolId,
+        homeScreenNewsItem,
     ]),
 });
